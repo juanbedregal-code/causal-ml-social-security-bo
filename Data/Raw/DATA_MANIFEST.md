@@ -16,5 +16,5 @@ To fully replicate this study, the following **11 datasets** must be acquired an
 ### 3. Macroeconomic Series (Inflation and GDP)
 *   **Source:** National Institute of Statistics of Bolivia (INE).
 *   **Files required:**
-    *   `IPC_departamental_2005_2025.xlsx` (Consolidated data, for real wage deflation)
-    *   `PIB_trimestral_bolivia.csv` (Consolidted data, for Output Gap calculation)
+    *   `ipc_departamental.csv` (Consolidated data, for real wage deflation)
+    *   `pib_ine_bo.xlsx` (Consolidted data, for Output Gap calculation)
