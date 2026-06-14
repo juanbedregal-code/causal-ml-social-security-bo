@@ -66,8 +66,9 @@ Following the Social Science Data Editors (SSDE) guidelines:
 - **Execution:** To replicate the study, place the raw `.sav`/`.csv` files in `Data/Raw/` and run the scripts in sequential order (01 to 04).
 
 ## 💻 Computational Requirements
-- **Python:** Version 3.9+ (Packages: `pandas`, `scikit-learn`, `statsmodels`). See `requirements.txt`.
-- **Stata:** Version 17+ (Required user-written commands: `pstest`, `psmatch2`, `reghdfe`).
-- **Wall-clock time:** ~540 minutes on a standard 16GB RAM machine.
+- **Hardware:** Google Colab Pro / GPU (CUDA) recommended for the Machine Learning pipeline. Standard 16GB RAM machine for Stata operations.
+- **Python:** Version 3.9+ (Packages: `optuna`, `xgboost`, `scikit-learn`, `pandas`).
+- **Stata:** Version 16+ (Required user-written commands: `reghdfe`, `coefplot`, `outreg2`).
+- **Wall-clock time:** ~10 hours (600 minutes) due to aggressive Bayesian Optimization (Optuna) in the Causal ML pipeline (up to 10,000 trials). Stata estimation takes ~15 minutes.
 ---
 *Created by [Juan José Bedregal](https://github.com/juanbedregal-code)*
